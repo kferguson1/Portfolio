@@ -1,9 +1,36 @@
 body {
     background-color: bisque;
-    background size: fixed;
+    background-size: fixed;
 }
 
 h1 {
     background: brown;
-    color: white
+    color: white;
+    text-align: center;
 }
+
+h2 {
+    text-align: center;
+    font-size: small;
+    line-height: 0%;
+}
+
+a:link {
+    color: brown;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: brown;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  
